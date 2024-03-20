@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    margin: 30px;
+    flex-direction: column;
+}
+
+.card img {
+    margin-top: 15px;
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.card h4 {
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.card p {
+    font-family: 'intelone-mono-font-family-regular';
+    margin-top: 6px;
+}
